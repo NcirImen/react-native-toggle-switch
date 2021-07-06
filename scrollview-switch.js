@@ -67,11 +67,11 @@ class ToggleSwitch extends React.Component {
       this.scrollRef.scrollTo({x: 0, y: 0, animated: true})
       this.updateState(true);
     }
-    this.touchableOpacity.setOpacityTo(1, 300);
+    //this.touchableOpacity.setOpacityTo(1, 300);
   }
 
   onDragStart = (e) => {
-    this.touchableOpacity.setOpacityTo(0.5, 300);
+    //this.touchableOpacity.setOpacityTo(0.5, 300);
   }
 
   render() {
